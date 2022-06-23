@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@200;400&display=swap");
+
+/* font-family: 'Lexend Deca', sans-serif;
+font-family: 'Big Shoulders Display', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    background-color: hsl(0, 0%, 95%);
+    padding: 30px;
+}
+h1{
+    font-family: 'Lexend Deca', sans-serif; 
+    text-transform: uppercase; 
+    margin: 20px 0 20px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsla(0, 0%, 100%, 0.75);
+    white-space: pre-line;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.btn-1, .btn-2, .btn-3{
+    font-family: 'Lexend Deca', sans-serif ;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    width: 100px;
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 25px ; 
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+    width: 250px; 
+    margin: auto;
+}
+.btn-1{
+    color:hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px; 
+    width: 250px;
+    margin: auto;
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    width: 250px;
+    margin: auto;
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}  
+@media screen and (min-width:600px) {
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px ;
+    }
+    .sedan{
+        height: 350px;
+        padding: 35px;
+        width: 200px;
+        border-radius: 10px 0 0px 10px;
+    }
+    .suv{
+        height: 350px;
+        padding: 35px;
+        width: 200px;
+    }
+    .luxury{
+        height: 350px;
+        width: 200px;
+        padding: 35px;
+        border-radius: 0 10px 10px 0;
+    } 
+}
