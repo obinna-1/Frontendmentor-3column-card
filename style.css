@@ -13,13 +13,13 @@ font-family: 'Big Shoulders Display', cursive; */
     padding: 30px;
 }
 h1{
-    font-family: 'Lexend Deca', sans-serif; 
+    font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase; 
     margin: 20px 0 20px;
     color: hsl(0, 0%, 95%);
 }
 p{
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     white-space: pre-line;
     font-size: 15px;
