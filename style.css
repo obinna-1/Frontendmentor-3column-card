@@ -35,6 +35,20 @@ p{
     text-align: center;
     margin-top: 25px ; 
 }
+.btn-1:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+.btn-2:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+.btn-3:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+.btn-1:hover, .btn-2:hover, .btn-3:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%) solid ;
+}
 .sedan{
     background-color: hsl(31, 77%, 52%);
     padding: 30px;
